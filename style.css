@@ -1,0 +1,120 @@
+body{
+    color: red;
+}
+
+h1{
+    color: seagreen;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+    border: 2px solid rgb(41, 39, 39);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(240, 209, 206);
+}
+
+.link1{
+    background-color: tomato;
+    text-decoration: none;
+    color: rgb(73, 68, 68);
+    padding: 1rem 1rem;
+    border: 2px solid rgb(218, 116, 116);
+    border-radius: 0.5rem;
+    border-radius: 0.5rem;
+}
+.link2{
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    border: 2px solid gray;
+    color:coral;
+}
+
+
+.lists{
+    list-style: none;
+}
+.lists2{
+    background-color: thistle;
+    list-style: none;
+}
+.lists-item-inline{
+    list-style: none;
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: indigo;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+    
+}
+.nav-lists{
+    list-style: none;
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+    text-decoration: none;    
+}
+
+.link-active{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+    
+}
+
+.hero .image{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-header{
+    color: violet;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero .hero-header .span{
+    color: black;
+}
+
+.section{
+    color: lavender;
+    background-color: rgb(102, 102, 99);
+}
+.section h3{
+    text-align: center;
+}
+
+
+.ow{
+    color: lavender;
+    background-color: rgb(252, 150, 230);
+}
+
+
+.container-center{
+    max-width: 300px;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(139, 101, 74);
+    text-align: center;
+    padding: 2rem;
+}
