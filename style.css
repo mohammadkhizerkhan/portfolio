@@ -1,51 +1,44 @@
 body{
-    color: red;
+    color: rgb(8, 8, 8);
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1{
-    color: seagreen;
+    color: #9CA3AF;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+.link-nav{
+    color: black;
+    border: 2px solid rgb(41, 39, 39);
+    border-radius: 0.5rem;
+    background-color: #E5E7EB(19, 218, 125, 0.493);
+}
+/* .link-active{
+    color: rgba(0, 0, 0, 0.918);
+    border: 2px solid rgb(41, 39, 39);
+    border-radius: 0.5rem;
+    background-color: rgba(19, 218, 125, 0.493);
+} */
 
 .link{
     text-decoration: none;
-    color: red;
-    border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    background-color: rgb(240, 209, 206);
-}
-.link-nav{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.918);
-    border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    background-color: rgba(19, 218, 125, 0.493);
-}
-.link-active{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.918);
-    border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    background-color: rgba(19, 218, 125, 0.493);
+    padding: 0.5rem 1rem;
 }
 
-.link1{
-    background-color: tomato;
-    text-decoration: none;
+.primary-link{
+    background-color: #E5E7EB;
     color: rgb(73, 68, 68);
-    padding: 1rem 1rem;
-    border: 2px solid rgb(218, 116, 116);
+    border: 2px solid black;
     border-radius: 0.5rem;
     border-radius: 0.5rem;
 }
-.link2{
-    text-decoration: none;
+.secondary-link{
     border-radius: 0.5rem;
-    padding: 1rem 1rem;
     border: 2px solid gray;
-    color:coral;
+    color:black;
 }
 
 
@@ -54,16 +47,31 @@ h1{
 }
 .lists2{
     background-color: thistle;
-    list-style: none;
+    /* list-style: none; */
 }
 .lists-item-inline{
-    list-style: none;
+    /* list-style: none; */
     display: inline;
     padding: 0rem 0.5rem;
 }
 
+.container-center{
+    max-width: 300px;
+    margin: auto;
+    padding: 6px;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-button{
+    max-width: 300px;
+    margin: auto;
+    padding: 6px;
+}
 .navigation{
-    background-color: rgba(5, 5, 5, 0.637);
+    background-color:#9CA3AF;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -71,15 +79,15 @@ h1{
 
 .nav-brand{
     font-weight: bold;
+    font-size: larger;
+    color: black;
     
 }
 .nav-lists{
-    list-style: none;
     text-align: right;
 }
 .navigation .link{
-    color: white;
-    text-decoration: none;    
+    color: rgb(3, 3, 3);
 }
 
 .link-active{
@@ -89,7 +97,7 @@ h1{
 }
 
 .hero{
-    padding: 2rem;
+    padding: 0px;
     
 }
 
@@ -106,44 +114,70 @@ h1{
 }
 
 .hero .hero-header .span{
-    color: rgba(6, 124, 69, 0.493);
+    color: #9CA3AF;
 }
 
-.section{
-    padding: 1rem;
-    color: lavender;
-    background-color: rgb(102, 102, 99);
+.section h3{
+    text-align: center;
 }
-.section2{
+
+
+.section{
+    color: rgb(10, 10, 10);
+    background-color: #E5E7EB;
+    max-width: 100%;
+    margin-top: 5%;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.ow{    
+    background-color: #E5E7EB;
+}
+
+/* .section2{
     color: lavender;
     background-color: rgb(102, 102, 99);
     max-width: 100%;
     margin-top: 5%;
     padding: 2rem;
     
-}
+} */
 
-.section2 .link-nav{
+
+/* .section2 .link-nav{
     margin-right: auto;
-}
-.section h3{
+} */
+
+
+
+
+.footer{
+    background-color: #9CA3AF;    ;
     text-align: center;
+    padding: 2rem 1rem;
+    color: whitesmoke;
+    border-top-left-radius: 2rem;
+}
+.footer-header{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.footer .link{
+    font-weight: bolder;
+    color:black;
 }
 
-
-.ow{
-    color: lavender;
-    background-color: rgb(252, 150, 230);
+.footer ul{
+    padding-block-start: 0px;
 }
 
-
-.container-center{
-    max-width: 300px;
+.footer-container{
     margin: auto;
-}
+    padding: 6px 0px;
 
-footer{
-    background-color: rgb(139, 101, 74);
-    text-align: center;
-    padding: 2rem;
 }
