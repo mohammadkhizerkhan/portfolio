@@ -180,5 +180,17 @@ h1{
 .footer-container{
     margin: auto;
     padding: 6px 0px;
+}
+
+.container-blog-center{
+    max-width: 500px;
+    margin: auto;
+    padding: 6px;
+}
+.link-blog{
+    text-decoration: none;
+}
+.blog-para{
+    margin-bottom: 3rem;
 
 }
