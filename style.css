@@ -182,6 +182,10 @@ h1{
     padding: 6px 0px;
 }
 
+.mode{
+    display: block;
+}
+
 .container-blog-center{
     max-width: 500px;
     margin: auto;
