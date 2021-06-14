@@ -182,9 +182,10 @@ h1{
     padding: 6px 0px;
 }
 
-.mode{
-    display: block;
+.footer-icon{
+    width: 50px;
 }
+
 
 .container-blog-center{
     max-width: 500px;
