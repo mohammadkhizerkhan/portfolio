@@ -13,15 +13,15 @@ h1{
 .link-nav{
     color: black;
     border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.5rem;
+    border-radius: 0.35rem;
     background-color: #E5E7EB(19, 218, 125, 0.493);
 }
-/* .link-active{
+.link-active{
     color: rgba(0, 0, 0, 0.918);
     border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.5rem;
-    background-color: rgba(19, 218, 125, 0.493);
-} */
+    border-radius: 0.35rem;
+    background-color: #E5E7EB;
+}
 
 .link{
     text-decoration: none;
