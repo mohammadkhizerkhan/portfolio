@@ -156,32 +156,28 @@ h1{
 
 
 
+.footer-container{
+    margin: auto;
+    padding: 6px 0px;
+}
+
 .footer{
     background-color: #9CA3AF;    ;
     text-align: center;
     padding: 2rem 1rem;
     color: whitesmoke;
     border-top-left-radius: 2rem;
-}
-.footer-header{
-    color: black;
     font-weight: bold;
     font-size: large;
-}
-.footer .link{
-    font-weight: bolder;
-    color:black;
+    color: black;
+    text-align: center;
 }
 
-.footer ul{
-    padding-block-start: 0px;
+.social-links{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
 }
-
-.footer-container{
-    margin: auto;
-    padding: 6px 0px;
-}
-
 .footer-icon{
     width: 50px;
 }
