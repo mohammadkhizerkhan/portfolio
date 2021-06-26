@@ -11,6 +11,11 @@ body{
 
 /* navigation lists */
 
+.home-link{
+    color: white;
+    text-decoration: none;
+}
+
 .lists{
     list-style: none;
 }
@@ -67,7 +72,8 @@ body{
 }
 
 .nav-lists{
-    text-align: right;
+    text-align: end;
+    height: 33px;
 }
 
 
@@ -79,6 +85,7 @@ body{
     color: white;
 }
 
+
 .link-active{
     font-weight: bolder;
 }
@@ -86,6 +93,34 @@ body{
 .link{
     text-decoration: none;
     padding: 0rem 0.5rem;
+    transition: all 0.3s linear;
+}
+
+.animated-link{
+    display: inline-block;
+    position: relative;
+    padding: 0;
+}
+
+.animated-link:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.animated-link:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+.animated-link:hover{
+    /* font-size: large; */
 }
 
 
@@ -148,7 +183,7 @@ body{
     font-size: large;
     border: 1px solid black;
     border-radius: 0.5rem;
-    border-radius: 0.5rem;
+    transition: all 0.2s linear;
 } 
 .secondary-link{
     padding: 7px 10px;
@@ -157,7 +192,15 @@ body{
     background-color: #4f95d3;
     border: 1px solid black;
     border-radius: 0.5rem;
+    transition: all 0.2s linear;
 } 
+
+.primary-link:hover{
+    background-color: #202f3d;
+}
+.secondary-link:hover{
+    background-color: #202f3d;
+}
 
 
 
@@ -186,8 +229,13 @@ body{
     justify-content: center;
     padding: 4px;
 }
+
 .footer-icon{
     width: 50px;
+    transition: all 0.2s linear;
+}
+.footer-icon:hover{
+    width: 55px;
 }
 
 
