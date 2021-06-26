@@ -120,7 +120,7 @@ body{
 }
 
 .animated-link:hover{
-    /* font-size: large; */
+    font-size: large;
 }
 
 
@@ -168,6 +168,9 @@ body{
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+}
+.section:hover{
+    background-color: #c7e1fc;
 }
 
 
