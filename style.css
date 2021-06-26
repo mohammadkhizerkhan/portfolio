@@ -1,47 +1,15 @@
 body{
     color: rgb(8, 8, 8);
     font-family: 'Fira Sans', sans-serif;
+    margin: 0;
 }
 
-h1{
-    color: #9CA3AF;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 
-.link-nav{
-    color: black;
-    border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.35rem;
-    background-color: #E5E7EB(19, 218, 125, 0.493);
-}
-.link-active{
-    color: rgba(0, 0, 0, 0.918);
-    border: 2px solid rgb(41, 39, 39);
-    border-radius: 0.35rem;
-    background-color: #E5E7EB;
-}
-
-.link{
-    text-decoration: none;
-    padding: 0rem 0.5rem;
-}
-
-
-.primary-link{
-    background-color: #E5E7EB;
-    color: rgb(73, 68, 68);
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    border-radius: 0.5rem;
-}
-.secondary-link{
-    border-radius: 0.5rem;
-    border: 2px solid gray;
-    color:black;
-}
-
+/* navigation lists */
 
 .lists{
     list-style: none;
@@ -55,6 +23,11 @@ h1{
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+
+
+
+/* containers */
 
 .container-center{
     max-width: 300px;
@@ -71,35 +44,57 @@ h1{
     margin: auto;
     padding: 6px;
 }
+
+
+
+
+/* navigation  */
+
 .navigation{
-    background-color:#9CA3AF;
+    background-color:#49a0eb;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .nav-brand{
-    font-weight: bold;
-    font-size: larger;
-    color: black;
-    
+    font-size: xx-large;
+    color: white;
 }
+
+.nav-brand span{
+    font-weight: bolder;
+}
+
 .nav-lists{
     text-align: right;
 }
+
+
+
+
+/* navigation links  */
+
 .navigation .link{
-    color: rgb(3, 3, 3);
+    color: white;
 }
 
 .link-active{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
+
+.link{
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+}
+
+
+
+
+/* main logo  */
 
 .hero{
     padding: 0px;
-    
 }
 
 .hero .image{
@@ -109,25 +104,30 @@ h1{
 }
 
 .hero .hero-header{
-    color: rgba(95, 89, 95, 0.829);
+    color: #5786af;
     padding: 1rem;
     text-align: center;
 }
 
 .hero .hero-header .span{
-    color: #9CA3AF;
+    color: rgba(73,160,235,0.7);
 }
+
+
+
+
+
+/* all sections */
 
 .section h3{
     text-align: center;
 }
 
-
 .section{
     color: rgb(10, 10, 10);
-    background-color: #E5E7EB;
+    background-color: #d7e9f8;
     max-width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 2rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -135,26 +135,34 @@ h1{
     border-bottom-right-radius: 2rem;
 }
 
-.ow{    
-    background-color: #E5E7EB;
-}
-
-/* .section2{
-    color: lavender;
-    background-color: rgb(102, 102, 99);
-    max-width: 100%;
-    margin-top: 5%;
-    padding: 2rem;
-    
-} */
-
-
-/* .section2 .link-nav{
-    margin-right: auto;
-} */
 
 
 
+
+/* button link css */
+
+.primary-link{
+    background-color: #64b1f5;
+    padding: 7px 10px;
+    color: white;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    border-radius: 0.5rem;
+} 
+.secondary-link{
+    padding: 7px 10px;
+    color: white;
+    font-size: large;
+    background-color: #4f95d3;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+} 
+
+
+
+
+/* footer css */
 
 .footer-container{
     margin: auto;
@@ -162,7 +170,7 @@ h1{
 }
 
 .footer{
-    background-color: #9CA3AF;    ;
+    background-color: #49a0eb;    ;
     text-align: center;
     padding: 2rem 1rem;
     color: whitesmoke;
@@ -182,6 +190,11 @@ h1{
     width: 50px;
 }
 
+
+
+
+
+/* blog css */
 
 .container-blog-center{
     max-width: 500px;
