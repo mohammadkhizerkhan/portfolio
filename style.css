@@ -8,6 +8,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
+
 /* navigation lists */
 
 .home-link{
@@ -242,8 +243,6 @@ body{
 
 
 
-
-
 /* blog css */
 
 .container-blog-center{
@@ -256,5 +255,5 @@ body{
 }
 .blog-para{
     margin-bottom: 3rem;
-
+    
 }

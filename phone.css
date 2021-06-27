@@ -1,0 +1,30 @@
+.nav-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-brand{
+    margin-bottom: 34px;
+}
+
+.lists-item-inline{
+    margin-top: 8px;
+}
+
+.pro-res-btn{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items:initial;
+}
+
+.primary-link{
+    margin: 8px;
+    text-align: center;
+}
+.secondary-link{
+    margin: 8px;
+    text-align: center;
+}
