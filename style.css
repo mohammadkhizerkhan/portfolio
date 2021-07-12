@@ -250,6 +250,10 @@ body{
 }
 .link-blog{
     text-decoration: none;
+    color: rgba(73,160,235,0.7);
+}
+.link-blog:hover{
+    color: #202f3d;
 }
 .blog-para{
     margin-bottom: 3rem;
