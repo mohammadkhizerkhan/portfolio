@@ -1,6 +1,7 @@
 body{
     color: rgb(8, 8, 8);
-    margin: 0;
+    margin: 0px;
+    margin-bottom: 0px;
     font-family: 'Encode Sans SC', sans-serif;
 }
 
@@ -118,9 +119,7 @@ body{
     width: 100%;
 }
 
-.animated-link:hover{
-    font-size: large;
-}
+
 
 
 
@@ -211,19 +210,19 @@ body{
 
 .footer-container{
     margin: auto;
-    padding: 6px 0px;
+    padding: 6px 0px 0px 0px;
 }
 
 .footer{
-    background-color: #49a0eb;    ;
+    background-color: #49a0eb;
     text-align: center;
     padding: 2rem 1rem;
     color: whitesmoke;
     border-top-left-radius: 2rem;
+    width: auto;
     font-weight: bold;
     font-size: large;
     color: black;
-    text-align: center;
 }
 
 .social-links{
