@@ -159,13 +159,12 @@ body{
 .section{
     color: rgb(10, 10, 10);
     background-color: #d7e9f8;
+    /* width: 85%; */
     max-width: 100%;
     margin-top: 2%;
+    /* margin-right: 33%; */
     padding: 2rem;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    border-radius: 2rem;
 }
 .section:hover{
     background-color: #c7e1fc;
