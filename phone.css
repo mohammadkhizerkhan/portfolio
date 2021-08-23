@@ -3,10 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2rem 0rem ;
 }
 
 .nav-brand{
-    margin-bottom: 34px;
+    margin-bottom: 14px;
 }
 
 .lists-item-inline{
