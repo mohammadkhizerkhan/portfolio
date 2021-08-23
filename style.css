@@ -37,7 +37,7 @@ body{
 .container-center{
     max-width: 330px;
     margin: auto;
-    padding: 6px;
+    /* padding: 6px; */
 }
 
 .container{
