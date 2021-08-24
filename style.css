@@ -161,6 +161,10 @@ body{
     color: rgba(73,160,235,0.7);
 }
 
+.headCenter{
+    max-width: 100%;
+    margin: 0% 36%;
+}
 
 
 
