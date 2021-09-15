@@ -131,23 +131,10 @@ body{
     margin-inline: 10rem;
 }
 
-
-.aboutMe{
-    max-width: 50ch;
-    text-align: justify;
-}
-
 .split{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-}
-
-
-
-.split img{
-    display: block;
-    max-width: 30rem;
 }
 
 
@@ -161,6 +148,21 @@ body{
     color: rgba(73,160,235,0.7);
 }
 
+
+.aboutMe{
+    max-width: 50ch;
+    text-align: justify;
+}
+
+
+.split img{
+    display: block;
+    max-width: 30rem;
+}
+
+
+
+/* project page header */
 .headCenter{
     max-width: 100%;
     margin: 0% 36%;
